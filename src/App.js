@@ -8,10 +8,18 @@ class App extends Component {
     return (
       <div className="App">
         <header className="App-header">
-          <Product judul = "Sempak Turbo (class component)" harga = "1M"/>
-          <Product judul = "Sempak Turbo (class component)" harga = "1M"/>
-          <Product judul = "Sempak Turbo (class component)" harga = "1M"/>
-          <Product judul = "Sempak Turbo (class component)" harga = "1M"/>
+          <div className="box">
+            <Product judul = "Sempak Turbo" harga = "1M"/>
+          </div>
+          <div className="box">
+            <Product judul = "Sempak Turbo" harga = "1M"/>
+          </div>
+          <div className="box">
+            <Product judul = "Sempak Turbo" harga = "1M"/>
+          </div>
+          <div className="box">
+            <Product judul = "Sempak Turbo" harga = "1M"/>
+          </div>
         </header>
       </div>
     );
