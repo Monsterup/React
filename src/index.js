@@ -75,8 +75,8 @@ ReactDOM.render(Product(element), document.getElementById('root'));
 //     }
 // }
 
-const element = <Product judul = "Sempak Turbo (class component)" harga = "1M"></Product>;
-
+// const element = <Product judul = "Sempak Turbo (class component)" harga = "1M"></Product>;
+const element = <App />;
 ReactDOM.render(element, document.getElementById('root'));
 
 // ReactDOM.render(<App />, document.getElementById('root'));
